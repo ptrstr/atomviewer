@@ -121,11 +121,11 @@ function renderLewis(element, ...layers) {
 		[(c.width/2) - (textSize/4), (c.height/2) - textSize],
 		[(c.width/2) + textSize, (c.height/2) - (textSize/4)],
 		[(c.width/2) + (textSize/4), (c.height/2) + textSize],
-		[(c.width/2) - textSize, (c.height/2) - (textSize/4)],
+		[(c.width/2) - textSize, (c.height/2) + (textSize/4)],
 		[(c.width/2) + (textSize/4), (c.height/2) - textSize],
 		[(c.width/2) + textSize, (c.height/2) + (textSize/4)],
 		[(c.width/2) - (textSize/4), (c.height/2) + textSize],
-		[(c.width/2) - textSize, (c.height/2) + (textSize/4)]
+		[(c.width/2) - textSize, (c.height/2) - (textSize/4)]
 	];
 
 	var colors = [
