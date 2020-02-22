@@ -142,7 +142,7 @@ function renderLewis(element, ...layers) {
 	for (var i = 0; i < layers[layers.length - 1] && i < 8; i++) {
 		ctx.beginPath();
 		ctx.arc(slots[i][0], slots[i][1], c.width/25, 0, Math.PI * 2);
-		ctx.fillStyle = colors[layers[layers.length - 1] <= 8 ? layers[layers.length - 1] - 1 : 7];
+		ctx.fillStyle = colors[layers[layers.length - 1] < 8 ? layers[layers.length - 1] - 1 : 7];
 		ctx.fill();
 	}
 
